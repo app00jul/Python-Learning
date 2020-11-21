@@ -1,0 +1,26 @@
+2.1: Simple Message.
+
+message = "God please saves me!"
+
+print(message)
+
+
+2.2: Simple Message.
+
+message = "God please saves me!"
+
+print(message)
+
+message = "1 Corinthians 13:4-8"
+
+print(message)
+
+
+2.3: Personal Message.
+
+Jesus = "Hi Christ, thank you for your salvation"
+
+print(Jesus)
+
+
+2.4: 
