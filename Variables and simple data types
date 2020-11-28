@@ -30,12 +30,14 @@ print(name.upper())
 print(name.lower())
 print(name.title())
 
+
 2.5, 2.6: Famous Quote 1 + 2.
 quote = "Take courage! It is I. Don’t be afraid"
 
 speaker = "Jesus"
 
 print(f"{speaker} once said '{quote}'")
+
 
 2.7: Stripping name.
 name = " Wub Wub "
@@ -55,6 +57,7 @@ print(2*4)
 
 print(32/4)
 
+
 2.9: Favorite number.
 fav_number = "7"
 
@@ -64,3 +67,9 @@ print(f"My favorite number is {fav_number}")
 
 2.10: Adding Comments.
 Ewwww no xD.
+
+
+2.11: Zen of Python.
+import this
+
+
