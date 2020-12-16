@@ -8,3 +8,39 @@ while i < len(names):
 
 
 3.2: Greetings.
+names = ["Jul", "Joe Noeske", "Mr.Carter"]
+
+print(f"Hey {names[0]}, be strong bud.")
+print(f"Good morning {names[1]}, you are the best mentor I could ever ask for.")
+print(f"{names[2]}, I will be honest. You are like a father to me.")
+
+3.3: Your Own List.
+vehicle = ["One Wheel", "M1A2 Abram", "Ka-52"]
+i = 0
+while i < len(vehicle):
+    print(f"I would like to own a/an {vehicle[i]} one day!")
+    i = i + 1
+    
+3.4: Guest List.
+invite = ["Deus", "Paul", "Steve Jobs", "Elon Musk"]
+
+i = 0
+while i < len(invite):
+    print(f"{invite[i]}, please come to my party!!!")
+    i = i + 1
+
+3.5: Changing Guest List.
+invite = ["Deus", "Paul", "Steve Jobs", "Elon Musk"]
+
+i = 0
+
+print(f"{invite[2]} cannot make it to the party :<")
+
+del invite[2]
+
+invite.append("Trump")
+
+
+while i < len(invite):
+    print(f"{invite[i]}, please come to my party!!!")
+    i = i + 1
