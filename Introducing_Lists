@@ -158,3 +158,39 @@ print(places)
 Already did!
 
 3.10: Every Function.
+learn = ["Python", "Kali", "OpenCV", "Raspberry Pi", "Networking", "GitHub"]
+
+print(learn)
+
+print(len(learn))
+
+print(learn[4])
+
+print(learn[-4])
+
+learn[0] = "Penetration Testing"
+print(learn)
+
+learn.append("Cryptography")
+print(learn)
+
+learn.insert(0, "Python")
+print(learn)
+
+del learn[3]
+print(learn)
+
+most = learn.pop(1)
+print(f"What I want to learn the most right now is {most}!")
+
+learn.remove("Raspberry Pi")
+print(learn)
+
+learn.sort()
+print(learn)
+
+learn.sort(reverse = True)
+print(learn)
+
+learn.reverse()
+print(learn)
