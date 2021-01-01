@@ -7,4 +7,24 @@ for pizza in type_of_pizza:
 print("I really love pizza!")
 
 4.2: Animals.
+pets = ["British short hair", "Golden Retriever", "Pug"]
+
+for pet in pets:
+    print(f"I would love to have a {pet} as a pet!")
+
+print("All of them would make great pet!!!")
+
+4.3: Counting to Twenty.
+number = list(range(0,21))
+
+for num in number:
+    print(num)
+
+4.4: One Million.
+number = list(range(0,1000001))
+
+for num in number:
+    print(num)
+
+4.5: Summing a Million.
 
