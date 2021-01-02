@@ -89,4 +89,16 @@ for friends_pizza in friends_pizzas:
     print(f"\t{friends_pizza}")
     
 4.12: More Loops.
+my_foods = ["pizza", "falafel", "carrot cake"]
+friend_foods = my_foods[:]
+
+print("My favorite foods are: ")
+for my_food in my_foods:
+    print(f"\t{my_food}")
+    
+print("\nMy friend's favorite foods are: ")
+for friend_food in friend_foods:
+    print(f"\t{friend_food}")
+
+4.13: Buffet.
 
