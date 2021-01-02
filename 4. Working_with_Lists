@@ -101,4 +101,20 @@ for friend_food in friend_foods:
     print(f"\t{friend_food}")
 
 4.13: Buffet.
+foods = ("Butter bread", "Dimsum", "Pho", "Tonkotsu", "Kimbap")
 
+print("The five foods that the restaurant serves are: ")
+for food in foods:
+    print(f"\t{food}")
+
+#foods.append("Noodle")
+
+foods = ("Miso", "Dimsum", "Teriyaki Chicken and Rice", "Tonkotsu", "Kimbap")
+print("\nThe new list of foods that the restaurant serves are: ")
+for food in foods:
+    print(f"\t{food}")
+
+4.14: PEP 8.
+Finished!
+
+4.15: Code Review.
