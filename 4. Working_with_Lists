@@ -75,14 +75,18 @@ for num in cubes[:3]:
     print(num)
 
 4.11: My Pizzas, Your Pizzas.
-my_pizzas = ["Hawaiian", "Seafood", "Greek", "Cheese"]
-friends_pizzas = ["Hawiian", "Seafood", "Greek", "Peperoni"]
+my_pizzas = ["Hawaiian", "Seafood", "Greek"]
+friends_pizzas = my_pizzas[:]
 
 print("The types of pizza that I like are: ")
+my_pizzas.append("Cheese")
 for my_pizza in my_pizzas:
     print(f"\t{my_pizza}")
     
 print("\nThe types of pizza that my friends like are: ")
+friends_pizzas.append("peperoni")
 for friends_pizza in friends_pizzas:
     print(f"\t{friends_pizza}")
     
+4.12: More Loops.
+
