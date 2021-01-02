@@ -27,4 +27,10 @@ for num in number:
     print(num)
 
 4.5: Summing a Million.
+number = list(range(0,1000001))
 
+print(min(number))
+print(max(number))
+print(sum(number))
+
+4.6: Odd Numbers.
