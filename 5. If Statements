@@ -2,12 +2,10 @@
 car = "Subaru"
 
 print("Is car == 'Subaru'? I predict True!")
-if car == "Subaru":
-    print("You are correct!")
+print(car == "Subaru")
 
 print("\nIs car == 'Audi'? I predict False!")
-if car != "Audi":
-    print("You are pretty correct!")
+print(car == "Audi")
 
 5.2: More Conditional Tests.
 
