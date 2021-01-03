@@ -88,5 +88,20 @@ else:
     print("You are an elder.")
 
 5.7: Favorite Fruit.
+fav_foods = ["Ramen", 
+            "Cheesecake", 
+            "Teriyaki Chicken"] #PEP 8 style?
 
+if "Ramen" in fav_foods:
+    print("I really enjoy Ramen!")
+if "Durian" in fav_foods:
+    print("I really enjoy Durian!")
+if "Cheesecake"in fav_foods:
+    print("I really enjoy Cheesecake!")
+if "Fried Chicken" in fav_foods:
+    print("I really enjoy Friend Chicken!")
+if "Teriyaki Chicken" in fav_foods:
+    print("I really enjoy Teriyaki Chicken!")
+
+5.8: Hello Admin.
 
