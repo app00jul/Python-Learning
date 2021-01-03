@@ -114,3 +114,12 @@ else:
     print(f"Sorry but user name '{enter_user}' is not avaible in our system. Please try again!")
 
 5.9: No Users.
+user_names = []
+
+if user_names:
+    for user_name in user_names:
+        print(user_name)
+else:
+    print("We need more user!!!")
+
+5.10: Checking Usernames.
