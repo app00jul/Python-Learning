@@ -1,3 +1,13 @@
 5.1: Conditional Tests.
+car = "Subaru"
 
+print("Is car == 'Subaru'? I predict True!")
+if car == "Subaru":
+    print("You are correct!")
+
+print("\nIs car == 'Audi'? I predict False!")
+if car != "Audi":
+    print("You are pretty correct!")
+
+5.2: More Conditional Tests.
 
