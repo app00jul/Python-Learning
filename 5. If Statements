@@ -8,4 +8,39 @@ print("\nIs car == 'Audi'? I predict False!")
 print(car == "Audi")
 
 5.2: More Conditional Tests.
+Skip!
+
+5.3: Alien Colors #1.
+#Pass test.
+alien_color = "green"
+
+if alien_color == "green":
+    print("You just earned 5 pts")
+
+#Fail test.
+alien_color = "green"
+
+if alien_color == "red":
+    print("You just earned 5 pts")
+
+5.4: Alien Colors #2.
+#If block.
+alien_color = "green"
+
+if alien_color == "green":
+    print("You just earned 5 pts!")
+else:
+    print("You just earned 10 pts!")
+
+#Else block.
+alien_color = "red"
+
+if alien_color == "green":
+    print("You just earned 5 pts!")
+else:
+    print("You just earned 10 pts!")
+
+5.5: Alien Colors #3.
+
+
 
