@@ -41,6 +41,35 @@ else:
     print("You just earned 10 pts!")
 
 5.5: Alien Colors #3.
+#Green.
+alien_color = "green"
+
+if alien_color == "green":
+    print("You just earned 5 pts!")
+elif alien_color == "yellow":
+    print("You just earned 10 pts!")
+else:
+    print("You just earned 15 pts!")
+
+#Yellow
+alien_color = "yellow"
+
+if alien_color == "green":
+    print("You just earned 5 pts!")
+elif alien_color == "yellow":
+    print("You just earned 10 pts!")
+else:
+    print("You just earned 15 pts!")
+
+#Red
+alien_color = "red"
+
+if alien_color == "green":
+    print("You just earned 5 pts!")
+elif alien_color == "yellow":
+    print("You just earned 10 pts!")
+else:
+    print("You just earned 15 pts!")
 
 
 
