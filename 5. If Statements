@@ -123,3 +123,13 @@ else:
     print("We need more user!!!")
 
 5.10: Checking Usernames.
+current_users = ["admin", "jul", "wub_wub", "ola", "app00Jul"]
+new_users = ["hek", "jul", "dida", "cassie", "app00Jul"]
+
+for new_user in new_users:
+    if new_user in current_users:
+        print(f"This user name '{new_user}' is already available. Please try a different one!!!")
+    else:
+        print(f"The user name '{new_user}' is valid. Thank you for using our service.")
+
+5.11: Ordinal Numbers.
