@@ -1,1 +1,8 @@
 6.1: Person.
+timmy = {"first" : "Little", "last" : "Timmy",
+          "age" : "5", "city" : "Chicago"}
+
+print(f"Welcome {timmy['first']} {timmy['last']}.")
+print(f"You are {timmy['age']}. You currently live in {timmy['city']}.")
+
+6.2: Favorite Numbers.
