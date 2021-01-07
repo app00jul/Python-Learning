@@ -16,3 +16,27 @@ for friends in friends_fav_num:
     print(f"{friends}'s favorite number is {friends_fav_num[friends]}")
 
 6.3: Glossary.
+terms = [".append", ".title", "sorted()", ".upper()", "lower()"]
+
+glossary = {".append" : "Add an item into a list.",
+            ".title" : "Capitalize the first letter of a word.",
+            "sorted()" : "Put the list in aphabetical order.",
+            ".upper()" : "Uppercase the whole word.",
+            ".lower()" : "Lowercase the whole word."}
+
+for terms in glossary:
+    print(f"{terms}:")
+    print(f"\t{glossary[terms]}\n")
+    
+6.4: Glossary 2.
+glossary = {".append" : "Add an item into a list.",
+            ".title" : "Capitalize the first letter of a word.",
+            "sorted()" : "Put the list in aphabetical order.",
+            ".upper()" : "Uppercase the whole word.",
+            ".lower()" : "Lowercase the whole word."}
+
+for key, value in glossary.items():
+    print(f"{key}:")
+    print(f"\t{value}\n")
+    
+6.5: Rivers.
