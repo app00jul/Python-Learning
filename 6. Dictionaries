@@ -6,4 +6,13 @@ print(f"Welcome {timmy['first']} {timmy['last']}.")
 print(f"You are {timmy['age']}. You currently live in {timmy['city']}.")
 
 6.2: Favorite Numbers.
-Postponed!
+friends_fav_num = {"Jul" : "7", "Timmy" : "5",
+                   "Cassie" : "4", "Elijah" : "13",
+                   "Koneda" : "256"}
+
+friends = ["Jul", "Timmy", "Cassie", "Elijah", "Koneda"]
+
+for friends in friends_fav_num:
+    print(f"{friends}'s favorite number is {friends_fav_num[friends]}")
+
+6.3: Glossary.
