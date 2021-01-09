@@ -1,9 +1,9 @@
 6.1: Person.
-timmy = {"first" : "Little", "last" : "Timmy",
-          "age" : "5", "city" : "Chicago"}
+cassie = {"first" : "Han", "last" : "Le",
+          "age" : "17", "city" : "Da Nang"}
 
-print(f"Welcome {timmy['first']} {timmy['last']}.")
-print(f"You are {timmy['age']}. You currently live in {timmy['city']}.")
+print(f"Welcome {cassie['first']} {cassie['last']}.")
+print(f"You are {cassie['age']}. You currently live in {caissie['city']}.")
 
 6.2: Favorite Numbers.
 friends_fav_num = {"Jul" : "7", "Timmy" : "5",
@@ -40,3 +40,9 @@ for key, value in glossary.items():
     print(f"\t{value}\n")
     
 6.5: Rivers.
+rivers = {"Nile" : "Egypt", 
+          "Jordan" : "Israel",
+          "Mississipi" : "United States"}
+
+for river, country in rivers.items():
+    print(f"{river} river is in {country}!")
