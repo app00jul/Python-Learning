@@ -7,8 +7,7 @@ print(f"You are {cassie['age']}. You currently live in {caissie['city']}.")
 
 6.2: Favorite Numbers.
 friends_fav_num = {"Jul" : "7", "Timmy" : "5",
-                   "Cassie" : "29", "Elijah" : "13",
-                   "Koneda" : "256"}
+                   "Cassie" : "29", "Elijah" : "13"}
 
 friends = ["Jul", "Timmy", "Cassie", "Elijah", "Koneda"]
 
