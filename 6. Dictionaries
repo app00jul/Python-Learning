@@ -45,3 +45,18 @@ rivers = {"Nile" : "Egypt",
 
 for river, country in rivers.items():
     print(f"{river} river is in {country}!")
+
+6.6: Polling.
+favorite_language = {"Jul" : "Python", 
+                     "Michael" : "Kotlin",
+                     "Elaine" : "Python"}
+
+people = ["Gary", "Quat", "Michael"]
+
+for person in people:
+    if person in favorite_language.keys():
+        print(f"Thank you {person} for responding.")
+    else:
+        print(f"Hi {person}, please take the poll!")
+
+6.7: People
