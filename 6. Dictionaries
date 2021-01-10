@@ -60,3 +60,28 @@ for person in people:
         print(f"Hi {person}, please take the poll!")
 
 6.7: People
+people = {
+        "cassie" : {
+                "first" : "Han",
+                "last" : "Le",
+                "birthday" : "29 April 2003",
+                "hometown" : "Da Nang"
+                },
+        "jul" : {
+                "first" : "Quan",
+                "last" : "Vu",
+                "birthday" : "31 July 2002",
+                "hometown" : "Hanoi"
+                }
+        }
+
+for username, user_info in people.items():
+    print(f"\nYour username is {username.upper()}")
+    full_name = f"{user_info['first']} {user_info['last']}"
+    birthday = f"{user_info['birthday']}"
+    hometown = f"{user_info['hometown']}"
+    print(f"\tHello hello {full_name}")
+    print(f"\tYour birthday is on {birthday}")
+    print(f"\tYour hometown is {hometown}")
+
+6.8: Pets.
