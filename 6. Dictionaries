@@ -110,3 +110,13 @@ for pet in pets:
         print(f"Her owner is {pet['owner']}")
 
 6.9: Favorite Places.
+favorite_places = {
+        "Jul" : "Moraine Lake",
+        "Thao" : "Toronto",
+        "Han" : "Da Nang"
+        }
+
+for person, place in favorite_places.items():
+    print(f"{person.title()}'s favorite place is {place.title()}.")
+
+6.10: Favorite Numbers.
