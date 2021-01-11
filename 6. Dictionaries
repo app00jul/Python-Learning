@@ -9,7 +9,7 @@ print(f"You are {cassie['age']}. You currently live in {caissie['city']}.")
 friends_fav_num = {"Jul" : "7", "Timmy" : "5",
                    "Cassie" : "29", "Elijah" : "13"}
 
-friends = ["Jul", "Timmy", "Cassie", "Elijah", "Koneda"]
+friends = ["Jul", "Timmy", "Cassie", "Elijah"]
 
 for friends in friends_fav_num:
     print(f"{friends}'s favorite number is {friends_fav_num[friends]}")
