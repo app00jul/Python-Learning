@@ -85,3 +85,28 @@ for username, user_info in people.items():
     print(f"\tYour hometown is {hometown}")
 
 6.8: Pets.
+ted = {"name" : "ted", 
+       "type" : "cat", 
+       "owner" : "Jul", 
+       "gender" : "female"}
+
+kida = {"name" : "kida", 
+        "type" : "dog", 
+        "owner" : "the Noeske", 
+        "gender" : "female"}
+
+echo = {"name" : "echo", 
+        "type" : "cat", 
+        "owner" : "Kate", 
+        "gender" : "male"}
+
+pets = [ted, kida, echo]
+
+for pet in pets:
+    print(f"\n{pet['name'].title()} is a {pet['type']}")
+    if pet["gender"] == "male":
+        print(f"His owner is {pet['owner']}")
+    else:
+        print(f"Her owner is {pet['owner']}")
+
+6.9: Favorite Places.
