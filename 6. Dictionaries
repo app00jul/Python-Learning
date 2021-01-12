@@ -120,3 +120,12 @@ for person, place in favorite_places.items():
     print(f"{person.title()}'s favorite place is {place.title()}.")
 
 6.10: Favorite Numbers.
+friends_fav_num = {"Jul" : [7, 256], "Timmy" : [5, 11],
+                   "Cassie" : [29, 4], "Elijah" : [13, 19]}
+
+for friend, numbers in friends_fav_num.items():
+    print(f"\n{friend}'s favorite numbers are:")
+    for number in numbers:
+        print(f"\t{number}")
+
+6.11: Cities.
