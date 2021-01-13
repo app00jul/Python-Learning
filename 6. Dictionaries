@@ -129,3 +129,28 @@ for friend, numbers in friends_fav_num.items():
         print(f"\t{number}")
 
 6.11: Cities.
+cities = {
+        "Milwaukee" : {
+                "Location" : "Untied States of America",
+                "Population" : "594,548",
+                "Mayor" : "Tom Barrett"
+            },
+        "Kyoto" : {
+                "Location" : "Japan",
+                "Population" : "1.475 million",
+                "Mayor" : "Daisaku Kadokawa"
+            },
+        "Auckland" : {
+                "Location" : "New Zealand",
+                "Population" : "1.657 million",
+                "Mayor" : "Phil Goff"}
+        }
+        
+for city, info in cities.items():
+    print(f"\n{city.upper()}")
+    print(f"\t{city.title()} is located in {info['Location']}.")
+    print(f"\t{city.title()} has a population of {info['Population']}.")
+    print(f"\t{city.title()}'s mayor is {info['Mayor']}.")
+
+6.12: Extensions.
+#Skip!
