@@ -1,1 +1,6 @@
 7.1: Rental Car.
+car = input("Please tell me what car you would like to have: ")
+
+print(f"I will try my best to find you a {car.title()}!")
+
+7.2: Restaurant Seating.
