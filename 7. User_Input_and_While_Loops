@@ -77,3 +77,6 @@ while number_of_people < number_of_fee:
 print(f"\nThe total amount of money you will have to pay is {total_money}")
 
 7.6: Three Exits.
+Skipped!
+
+7.7: Inifinity.
