@@ -1,1 +1,7 @@
-8.1 Message.
+8.1: Message.
+def display_message():
+    print("I am learning how to use function in Python!")
+    
+display_message()
+
+8.2: Favorite Book.
