@@ -80,3 +80,9 @@ print(f"\nThe total amount of money you will have to pay is {total_money}")
 Skipped!
 
 7.7: Inifinity.
+i = 0
+
+while i < 10:
+    print(i)
+
+7.8: Deli.
