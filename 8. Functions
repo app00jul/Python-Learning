@@ -12,3 +12,14 @@ book = input("Please enter the name of the book you like: ")
 favorite_book(book)
 
 8.3: T-Shirt.
+def make_shirts(size, message):
+    print(f"The size of the shirt will be {size}.")
+    print("Message:")
+    print(f"\t{message}")
+    
+size = input("Please enter the size you want: ")
+message = input("Please enter the message you want: ")
+
+make_shirts(size, message)
+
+8.4: Large Shirts.
