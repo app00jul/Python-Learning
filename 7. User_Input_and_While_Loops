@@ -127,3 +127,20 @@ for sandwich in finished_sandwich:
     print(f"\t{sandwich.title()}.")
 
 7.10: Dream Vacation.
+prompt = "If you were to choose a place to go, where would you want to go?"
+prompt += "Please enter your answer here: "
+
+locations = []
+
+while True:
+    places = input(prompt)
+    
+    if places == "quit":
+        break
+    else:
+        locations.append(places)
+        
+print("\nHere are the places people want to go.")
+for location in locations:
+    print(f"\t{location}")
+
