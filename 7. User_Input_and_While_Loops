@@ -42,3 +42,38 @@ for top in toppings:
     print(f"\t{top}")
 
 7.5: Movie Tickets.
+age_prompt = "Please enter your age: "
+
+list_of_fee = []
+
+while True:
+    age = input(age_prompt)
+    
+    if age == "quit":
+        break
+    elif int(age) < 3:
+        print("The ticket is free")
+    elif int(age) >= 3 and int(age) <= 12:
+        print("The ticket is $10")
+        list_of_fee.append(10)
+    elif int(age) > 12:
+        print("The ticket is $15")
+        list_of_fee.append(15)
+    else:
+        print("Your input is invalid. Please try again!!!")
+   
+print("\nThey amount you will have to pay are:")     
+for fee in list_of_fee:
+    print(f"\t{fee}")
+
+number_of_people = 1
+number_of_fee = len(list_of_fee)
+total_money = list_of_fee[0]
+
+while number_of_people < number_of_fee:
+    total_money = total_money + list_of_fee[number_of_fee-(number_of_fee - number_of_people)]
+    number_of_people = number_of_people + 1
+    
+print(f"\nThe total amount of money you will have to pay is {total_money}")
+
+7.6: Three Exits.
