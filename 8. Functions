@@ -48,3 +48,11 @@ def make_shirts(size, message):
 make_shirts(size, message)
 
 8.5: Cities.
+def describe_city(city, country):
+    print(f"{city.title()} is in {country.title()}.")
+
+describe_city("Hanoi", "Vietnam")
+describe_city("Milwaukee", "United States")
+describe_city("Tokyo", "Japan")
+
+8.6: City Names.
