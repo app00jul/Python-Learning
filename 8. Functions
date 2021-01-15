@@ -23,3 +23,28 @@ message = input("Please enter the message you want: ")
 make_shirts(size, message)
 
 8.4: Large Shirts.
+def make_shirts(size, message):
+    message = input("Please enter the message you want: ")
+
+    if message == "I love Python":
+        print("For this messae, the shirt need to be medium or large.")
+        size_option = "If you want to pick the medium size shirt, type 'M'."
+        size_option += "\nIf you want to pick the large size shirt, type 'L'."
+        size_option += "\nType here: "
+        choose = input(size_option)
+        if choose.title() == "M":
+            size = "Medium"
+        elif choose.title() == "L":
+            size = "Large"
+        print(f"\nThe size of the shirt is {size}.")
+        print("The message:")
+        print(f"\t{message}")
+    else:
+        size = input("Please enter the size you want: ")
+        print(f"\nThe size of the shirt is {size}.")
+        print("The message:")
+        print(f"\t{message}")
+        
+make_shirts(size, message)
+
+8.5: Cities.
