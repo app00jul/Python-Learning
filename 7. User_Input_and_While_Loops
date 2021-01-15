@@ -4,3 +4,11 @@ car = input("Please tell me what car you would like to have: ")
 print(f"I will try my best to find you a {car.title()}!")
 
 7.2: Restaurant Seating.
+number = int(input("How many people are there in your group for tonight? "))
+
+if number > 8: 
+    print(f"Since there are {number} of you, you will need to wait for a table.")
+else:
+    print("Your table is ready. Please come this way.")
+
+7.3: Multiples of Ten.
