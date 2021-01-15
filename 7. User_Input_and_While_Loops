@@ -102,3 +102,28 @@ for sandwich in finished_sandwich:
     print(f"\t{sandwich.title()}.")
 
 7.9: No Pastrami.
+sandwich_orders = ["Cheesesteak Sandwich", "Pastrami",
+                   "Pastrami", "Club Sandwich",
+                   "Doner Kebab", "Tuna Sandwich",
+                   "Pastrami", "Meatball Sandwich"]
+finished_sandwich = []
+
+print("People have ordered these sandwiches:")
+for sandwich_ordered in sandwich_orders:
+    print(f"\t{sandwich_ordered}.")
+
+print("\nSorry but we run out of Pastrami sandwich.")
+while "Pastrami" in sandwich_orders:
+    sandwich_orders.remove("Pastrami")
+
+while sandwich_orders:
+    finished = sandwich_orders.pop()
+    
+    print(f"I made a {finished}!")
+    finished_sandwich.append(finished)
+    
+print("\nI finished all the following sandwiches: ")
+for sandwich in finished_sandwich:
+    print(f"\t{sandwich.title()}.")
+
+7.10: Dream Vacation.
