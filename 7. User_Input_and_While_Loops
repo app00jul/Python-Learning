@@ -86,3 +86,19 @@ while i < 10:
     print(i)
 
 7.8: Deli.
+sandwich_orders = ["Cheesesteak Sandwich", "Club Sandwich",
+                   "Doner Kebab", "Tuna Sandwich"]
+finished_sandwich = []
+
+while sandwich_orders:
+    finished = sandwich_orders.pop()
+    
+    print(f"I made a {finished}!")
+    finished_sandwich.append(finished)
+    
+print("\nI finished all the following sandwiches: ")
+
+for sandwich in finished_sandwich:
+    print(f"\t{sandwich.title()}.")
+
+7.9: No Pastrami.
