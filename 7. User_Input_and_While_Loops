@@ -22,3 +22,23 @@ else:
     print(f"{number} is NOT a multiple of 10.")
 
 7.4: Pizza Toppings.
+prompt = "In order for us to make a pizza, we would need to know what toppings you would like to have."
+prompt += "\nPlease give us the topping you want: "
+
+toppings = []
+
+while True:
+    topping = input(prompt)
+    
+    if topping == "quit":
+        break
+    else:
+        print(f"You added {topping}")
+        toppings.append(topping)
+        
+print("\nHere are what you picked for the toppings.")
+
+for top in toppings:
+    print(f"\t{top}")
+
+7.5: Movie Tickets.
