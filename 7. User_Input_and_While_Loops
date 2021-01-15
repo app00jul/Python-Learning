@@ -12,3 +12,11 @@ else:
     print("Your table is ready. Please come this way.")
 
 7.3: Multiples of Ten.
+number = int(input("Please enter a number: "))
+
+check = number % 10
+
+if check == 0:
+    print(f"{number} is a multiple of 10.")
+else:
+    print(f"{number} is NOT a multiple of 10.")
