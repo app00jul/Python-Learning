@@ -5,3 +5,10 @@ def display_message():
 display_message()
 
 8.2: Favorite Book.
+def favorite_book(book):
+    print(f"One of my favorite books is {book.title()}.")
+
+book = input("Please enter the name of the book you like: ")
+favorite_book(book)
+
+8.3: T-Shirt.
