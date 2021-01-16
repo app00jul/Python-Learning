@@ -73,3 +73,22 @@ print(AUK)
 print(TKY)
 
 8.7: Album.
+def make_album(artist_name, album_title, number_of_songs = None):
+    album = {"Artist" : artist_name,
+             "Title" : album_title}
+    
+    if number_of_songs:
+        album["Number of songs"] = number_of_songs
+        print(f"\n{album['Title']}:")
+        print(f"\tArtist: {album['Artist']}.")
+        print(f"\tNumber of songs: {album['Number of songs']}")
+    else:
+        print(f"\n{album['Title']}:")
+        print(f"\tArtist: {album['Artist']}.")
+    
+    return album
+
+make_album("Hek", "Wub_wub", 13)
+make_album("H", "Wad")
+
+8.8: User Album.
