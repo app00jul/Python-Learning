@@ -56,3 +56,20 @@ describe_city("Milwaukee", "United States")
 describe_city("Tokyo", "Japan")
 
 8.6: City Names.
+def city_country(city, country):
+    location = {"City" : city, 
+                "Country" : country}
+    
+    city_in_country = f"{location['City']}, {location['Country']}"
+    
+    return city_in_country
+
+NY = city_country("New York", "United States")
+AUK = city_country("Auckland", "New Zealand")
+TKY = city_country("Tokyo", "Japan")
+
+print(NY)
+print(AUK)
+print(TKY)
+
+8.7: Album.
