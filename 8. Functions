@@ -92,3 +92,38 @@ make_album("Hek", "Wub_wub", 13)
 make_album("H", "Wad")
 
 8.8: User Album.
+def user_album(artist_name, album_title, number = None):
+    album = {"Artist" : artist_name,
+             "Title" : album_title}
+    
+    if number:
+        album["Number of songs"] = number
+        album_info = f"\nTitle: {album['Title']}.title():"
+        album_info += f"\nArtitst: {album['Artist']}.title()"
+        album_info += f"\nNumber of songs: {album['Number of songs']}.title()"
+    else:
+        album_info = f"\nTitle: {album['Title']}.title():"
+        album_info += f"\nArtitst: {album['Artist']}.title()"
+        
+    return album_info
+
+while True:
+    print("\nPlease tell me the following information:")
+    print("Please enter 'q' to quit.")
+    
+    title = input("Album title: ")
+    if title == 'q':
+        break
+    
+    artist = input("Artist name: ")
+    if artist == 'q':
+        break
+    
+    num = input("Number of songs in the album (optional, if so, leave blank): ")
+    if num == 'q':
+        break
+    
+    album_data = user_album(artist, title, num)
+    print(album_data)
+
+8.9: Message.
