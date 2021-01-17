@@ -205,3 +205,17 @@ build_profile("Albert", "Einstein",
               field = "Physics")
 
 8.14: Cars.
+def make_car(manufacturer, model, **additional_data):
+    additional_data["manufacturer"] = manufacturer
+    additional_data["model"] = model
+    
+    for data, info in additional_data.items():
+        print(f"\n{data.title()}:")
+        print(f"\t{info.title()}.")
+        
+    return additional_data
+
+make_car("Tesla", "Model x",
+         color = "black", insurance = "True")
+    
+8.15: Printing Models.
