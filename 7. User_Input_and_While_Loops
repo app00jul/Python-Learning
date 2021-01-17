@@ -71,7 +71,7 @@ number_of_fee = len(list_of_fee)
 total_money = list_of_fee[0]
 
 while number_of_people < number_of_fee:
-    total_money = total_money + list_of_fee[number_of_fee-(number_of_fee - number_of_people)]
+    total_money = total_money + list_of_fee[number_of_people]
     number_of_people = number_of_people + 1
     
 print(f"\nThe total amount of money you will have to pay is {total_money}")
