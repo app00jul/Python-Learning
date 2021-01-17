@@ -180,3 +180,13 @@ print(messages)
 print(printed_messages)
 
 8.12: Sandwiches.
+def make_sandwich(*toppings):
+    print("\nYou ordered the following toppings:")
+    for topping in toppings:
+        print(f"\t{topping.title()}.")
+        
+make_sandwich("cheese")
+make_sandwich("bacon", "ketchup")
+make_sandwich("chicken", "honey mustard", "lectuce")
+
+8.13: User Profile.
