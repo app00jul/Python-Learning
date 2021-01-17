@@ -127,3 +127,13 @@ while True:
     print(album_data)
 
 8.9: Message.
+messages = ["Hello World", "Hello hello",
+            "Yes yes", "Good morning"]
+
+def show_messages(texts):
+    for text in texts:
+        print(f"\n{text.title()}")
+        
+show_messages(messages)
+
+8.10: Sending Messages.
