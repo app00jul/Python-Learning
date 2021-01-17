@@ -157,3 +157,26 @@ printing_messages(messages, printed_messages)
 finished_messages(printed_messages)
 
 8.11: Archived Messages.
+messages = ["Hello World", "Hello hello",
+            "Yes yes", "Good morning"]
+
+printed_messages = []
+
+def printing_messages(messages, printed_messages):
+    while messages:
+        printing_message = messages.pop()
+        print(f"Printing message: {printing_message}")
+        printed_messages.append(printing_message)
+        
+def finished_messages(printed_messages):
+    print("\nThe following messages have been printed:")
+    for message in printed_messages:
+        print(f"\t{message}")
+        
+printing_messages(messages, printed_messages)
+finished_messages(printed_messages)
+
+print(messages)
+print(printed_messages)
+
+8.12: Sandwiches.
