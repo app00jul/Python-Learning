@@ -190,3 +190,18 @@ make_sandwich("bacon", "ketchup")
 make_sandwich("chicken", "honey mustard", "lectuce")
 
 8.13: User Profile.
+def build_profile(first, last, **user_info):
+    user_info["first name"] = first
+    user_info["last name"] = last
+    
+    for data, info in user_info.items():
+        print(f"\n{data.title()}:")
+        print(f"\t{info}.")
+    
+    return user_info
+
+build_profile("Albert", "Einstein",
+              location = "Princeton",
+              field = "Physics")
+
+8.14: Cars.
