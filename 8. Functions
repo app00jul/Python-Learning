@@ -205,7 +205,7 @@ build_profile("Albert", "Einstein",
               field = "Physics")
 
 8.14: Cars.
-def make_car(manufacturer, model, **additional_data):
+def make_car(manufacturer, model, *additional_data):
     additional_data["manufacturer"] = manufacturer
     additional_data["model"] = model
     
