@@ -218,4 +218,22 @@ def make_car(manufacturer, model, *additional_data):
 make_car("Tesla", "Model x",
          color = "black", insurance = "True")
     
-8.15: Printing Models.
+8.15/8.16: Printing Models.
+***main***
+def counting_number():
+    i = 0
+    while i < 10:
+        print(i)
+        i = i + 1
+ 
+***module_calling***
+from main import counting_number
+
+counting_number()
+
+***2nd trial***
+from main import *
+
+counting_number()
+
+8.17: Styling Function
