@@ -1,1 +1,29 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+class tank:
+    """A simple attempt to model a tank."""
+
+    def __init__(self, name, country):
+        self.name = name
+        self.country = country
+
+    def identify(self):
+        print(f"{self.name} is a tank from {self.country}")
+
+    def ride(self):
+        print(f"{self.name} is moving.")
+
+    def shoot(self):
+        print(f"{self.name} is shooting.")
+
+abrams = tank("M1A2 Abrams", "America")
+
+print(f"{abrams.name}")
+print(f"{abrams.country}")
+abrams.shoot()
+abrams.ride()
+
 9.1: Restaurant.
