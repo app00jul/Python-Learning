@@ -27,3 +27,23 @@ abrams.shoot()
 abrams.ride()
 
 9.1: Restaurant.
+class restaurant:
+    def __init__(self, name, cuisine):
+        self.name = name
+        self. cuisine = cuisine
+
+    def describe_restaurant(self):
+        print(f"{self.name} is a/an {self.cuisine} restaurant.")
+
+    def open_restaurant(self):
+        print(f"{self.name} is opened.")
+
+phoOne = restaurant("Pho One 24", "Vietnamese")
+
+print(phoOne.name)
+print(phoOne.cuisine)
+
+phoOne.describe_restaurant()
+phoOne.open_restaurant()
+
+9.2: Three Restaurants.
