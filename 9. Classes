@@ -47,3 +47,34 @@ phoOne.describe_restaurant()
 phoOne.open_restaurant()
 
 9.2: Three Restaurants.
+class restaurant:
+    def __init__(self, name, cuisine):
+        self.name = name
+        self. cuisine = cuisine
+
+    def describe_restaurant(self):
+        print(f"{self.name} is a/an {self.cuisine} restaurant.")
+
+    def open_restaurant(self):
+        print(f"{self.name} is opened.")
+
+phoOne = restaurant("Pho One 24", "Vietnamese")
+seoul = restaurant("Seoul", "Korean")
+tanpopo = restaurant("Tanpopo Ramen & Sushi", "Japanese")
+
+print(f"\n{phoOne.name}")
+print(f"{phoOne.cuisine}")
+phoOne.describe_restaurant()
+phoOne.open_restaurant()
+
+print(f"\n{seoul.name}")
+print(f"{seoul.cuisine}")
+seoul.describe_restaurant()
+seoul.open_restaurant()
+
+print(f"\n{tanpopo.name}")
+print(f"{tanpopo.cuisine}")
+tanpopo.describe_restaurant()
+tanpopo.open_restaurant()
+
+9.3: User.
