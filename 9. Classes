@@ -77,4 +77,4 @@ print(f"{tanpopo.cuisine}")
 tanpopo.describe_restaurant()
 tanpopo.open_restaurant()
 
-9.3: User.
+9.3: Users.
