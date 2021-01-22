@@ -100,6 +100,7 @@ print(app00jul.first_name)
 print(app00jul.last_name)
 print(app00jul.age)
 print(app00jul.location)
+
 app00jul.describe_user()
 app00jul.greet()
 
