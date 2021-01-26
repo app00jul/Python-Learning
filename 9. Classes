@@ -1,5 +1,4 @@
 class tank:
-    """A simple attempt to model a tank."""
     def __init__(self, name, country):
         self.name = name
         self.country = country
