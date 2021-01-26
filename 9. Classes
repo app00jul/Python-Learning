@@ -97,3 +97,40 @@ app00jul.describe_user()
 app00jul.greet()
 
 9.4: Number Served.
+class restaurant:
+    def __init__(self, name, cuisine):
+        self.name = name
+        self. cuisine = cuisine
+        self.served = 0
+
+    def describe_restaurant(self):
+        print(f"{self.name} is a/an {self.cuisine} restaurant.")
+
+    def open_restaurant(self):
+        print(f"{self.name} is opened.")
+
+    def set_number_served(self, served):
+        if served >= self.served:
+            self.served = served
+            print(f"We have served extra {self.served} people.")
+        else:
+            print("You cannot roll back the number of served customers.")
+
+    def increment_number_served(self, served):
+        self.served += served
+
+    def read_served(self):
+        print(f"The total number of servings today is {self.served}.")
+
+phoOne24 = restaurant("Pho One 24", "Vietnamese")
+
+phoOne24.describe_restaurant()
+phoOne24.open_restaurant()
+
+phoOne24.set_number_served(12)
+phoOne24.read_served()
+
+phoOne24.increment_number_served(30)
+phoOne24.read_served()
+
+9.5: Login Attempts.
