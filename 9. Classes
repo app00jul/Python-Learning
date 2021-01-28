@@ -172,44 +172,6 @@ app00jul.greet()
 app00jul.increment_login_attempt()
 app00jul.increment_login_attempt()
 app00jul.reset_login_attempt()
-class users:
-    def __init__(self, first_name, last_name, age, location):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
-        self.location = location
-        self.login_attempt = 0
-
-    def describe_user(self):
-        full_name = f"{self.first_name} {self.last_name}"
-        print(f"\n{full_name}")
-        print(f"User's age: {self.age}.")
-        print(f"The user lives in {self.location}.")
-
-    def greet(self):
-        print(f"Hello {self.first_name},welcome to the program!")
-
-    def increment_login_attempt(self):
-        self.login_attempt += 1
-        print(f"Your current login attempts are {self.login_attempt}")
-
-    def reset_login_attempt(self):
-        self.login_attempt = 0
-        print(f"Your login attempt has been reset {self.login_attempt}.")
-
-"""DATA ABOUT THE FIRST USER"""
-app00jul = users("Jul", "Vu", "18", "Wisconsin")
-print(app00jul.first_name)
-print(app00jul.last_name)
-print(app00jul.age)
-print(app00jul.location)
-
-app00jul.describe_user()
-app00jul.greet()
-
-app00jul.increment_login_attempt()
-app00jul.increment_login_attempt()
-app00jul.reset_login_attempt()
 
 9.6: Ince Cream Stand.
 class Restaurant:
