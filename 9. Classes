@@ -15,6 +15,7 @@ class tank:
 abrams = tank("M1A2 Abrams", "America")
 print(f"{abrams.name}")
 print(f"{abrams.country}")
+
 abrams.shoot()
 abrams.ride()
 
