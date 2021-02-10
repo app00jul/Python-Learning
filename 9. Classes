@@ -40,6 +40,7 @@ print(phoOne.cuisine)
 phoOne.describe_restaurant()
 phoOne.open_restaurant()
 
+
 9.2: Three Restaurants.
 class restaurant:
     def __init__(self, name, cuisine):
