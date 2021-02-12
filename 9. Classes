@@ -90,6 +90,7 @@ class users:
 
 """DATA ABOUT THE FIRST USER"""
 app00jul = users("Jul", "Vu", "18", "Wisconsin")
+
 print(app00jul.first_name)
 print(app00jul.last_name)
 print(app00jul.age)
