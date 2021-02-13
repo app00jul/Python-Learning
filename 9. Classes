@@ -345,11 +345,10 @@ class Battery():
             car_range = 315
 
         print(f"This car can go about {car_range} miles on a full charge.")
-'''
+
     def update_battery(self):
         if self.battery_size < 100:
-'''
-
+            self.battery_size = 100
 
 class ElectricCar(Car):
     def __init__(self, make, model, year):
@@ -362,7 +361,15 @@ class ElectricCar(Car):
 
 
 my_tesla = ElectricCar("telsa", "model e", 2020)
+
 print(my_tesla.get_descriptive_name())
+
 my_tesla.battery_size.describe_battery()
 my_tesla.battery_size.get_range()
 
+my_tesla.battery_size.update_battery()
+
+my_tesla.battery_size.describe_battery()
+my_tesla.battery_size.get_range()
+
+9.10: Imported Restaurant.
