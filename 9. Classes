@@ -471,4 +471,56 @@ app00jul = Admin("Julian", "Vu", "18", "Milwaukee")
 app00jul.privileges.show_privileges()
 
 9.12: Multiple Modules.
+***Classes***
+class Users:
+    def __init__(self, first_name, last_name, age, location):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.location = location
+        self.login_attempt = 0
 
+    def describe_user(self):
+        full_name = f"{self.first_name} {self.last_name}"
+        print(f"\n{full_name}")
+        print(f"User's age: {self.age}.")
+        print(f"The user lives in {self.location}.")
+
+    def greet(self):
+        print(f"Hello {self.first_name},welcome to the program!")
+
+    def increment_login_attempt(self):
+        self.login_attempt += 1
+        print(f"Your current login attempts are {self.login_attempt}")
+
+    def reset_login_attempt(self):
+        self.login_attempt = 0
+        print(f"Your login attempt has been reset {self.login_attempt}.")
+
+***Smaller_classes***
+from Classes import Users
+
+class Privileges:
+    def __init__(self):
+        self.privileges = ["can add post", "can delete post",
+                           "can see the list of user", "can ban post",
+                           "add new users", "remove users"]
+    def show_privileges(self):
+        print("Here are the Admin's privileges:")
+        for privilege in self.privileges:
+            print(f"\t- {privilege.title()}")
+
+class Admin(Users):
+    def __init__(self, first_name, last_name, age, location):
+        super().__init__(first_name, last_name, age, location)
+        self.privileges = Privileges()
+
+***main***
+from Classes import Users
+from Smaller_classes import Admin, Privileges
+
+"""DATA ABOUT THE FIRST USER"""
+app00jul = Admin("Julian", "Vu", "18", "Milwaukee")
+app00jul.privileges.show_privileges()
+
+9.13: Dice.
