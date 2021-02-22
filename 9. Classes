@@ -372,4 +372,54 @@ my_tesla.battery_size.describe_battery()
 my_tesla.battery_size.get_range()
 
 9.10: Imported Restaurant.
-READ BOOK! x 7
+***Classes*** 
+class Restaurant:
+    def __init__(self, name, cuisine):
+        self.name = name
+        self. cuisine = cuisine
+        self.served = 0
+
+    def describe_restaurant(self):
+        print(f"{self.name} is a/an {self.cuisine} restaurant.")
+
+    def open_restaurant(self):
+        print(f"{self.name} is opened.")
+
+    def set_number_served(self, served):
+        if served >= self.served:
+            self.served = served
+            print(f"We have served extra {self.served} people.")
+        else:
+            print("You cannot roll back the number of served customers.")
+
+    def increment_number_served(self, served):
+        self.served += served
+
+    def read_served(self):
+        print(f"The total number of servings today is {self.served}.")
+
+***Smaller_classes***
+from Classes import Restaurant
+
+class IceCreamStand(Restaurant):
+    def __init__(self, name, cuisine):
+        super().__init__(name, cuisine)
+
+    def favor(self):
+        favors =  ["Vanilla", "Chocolate",
+                  "Mint", "Watermelon",
+                  "Banana", "Strawberry"]
+        print("\nHere are all the favor in the Ice Cream Stand:")
+        for favor in favors:
+            print(f"\t{favor}")
+ 
+***main***
+from Classes import Restaurant
+from Smaller_classes import IceCreamStand
+
+CheesecakeFactory = IceCreamStand("Cheescake Factory", "Cheesecake")
+CheesecakeFactory.describe_restaurant()
+CheesecakeFactory.favor()
+
+9.11: Imported Admin.
+
