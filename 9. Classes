@@ -553,3 +553,31 @@ roll_ten_time = Dice(10)
 roll_ten_time.roll_dice()
 
 9.14: Lottery.
+from random import choice
+
+class Lottery:
+    def __init__(self, data):
+        self.ticket_data = [1, 2, 3, 4, 5,
+                            6, 7, 8, 9, 0,
+                            "D", "E", "J", "W", "N"]
+        self.data = data
+        self.first = 0
+        self.second = 0
+        self.third = 0
+        self.forth = 0
+
+    def roll_ticket(self):
+        self.first = choice(self.ticket_data)
+        print(f"The first letter/number is: \t {self.first}")
+        self.second = choice(self.ticket_data)
+        print(f"The first letter/number is: \t {self.second}")
+        self.third = choice(self.ticket_data)
+        print(f"The first letter/number is: \t {self.third}")
+        self.forth = choice(self.ticket_data)
+        print(f"The first letter/number is: \t {self.forth}")
+
+        print("\nThe winning ticket is:")
+        print(f"\t{self.first} {self.second} {self.third} {self.forth}")
+
+yeet = Lottery(10)
+yeet.roll_ticket() ***FIX THIS TOMORROW
