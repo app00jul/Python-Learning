@@ -580,4 +580,7 @@ class Lottery:
         print(f"\t{self.first} {self.second} {self.third} {self.forth}")
 
 yeet = Lottery(10)
-yeet.roll_ticket() ***FIX THIS TOMORROW
+yeet.roll_ticket() 
+
+9.15: Lottery Analysis.
+
