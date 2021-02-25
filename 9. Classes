@@ -583,4 +583,46 @@ yeet = Lottery(10)
 yeet.roll_ticket() 
 
 9.15: Lottery Analysis.
+from random import choice
+
+class Lottery:
+    def __init__(self, data):
+        self.ticket_data = [1, 2, 3, 4, 5,
+                            6, 7, 8, 9, 0,
+                            "D", "E", "J", "W", "N"]
+
+        self.my_ticket = ("D", "7", "J", "5")
+
+        self.data = data
+        self.first = 0
+        self.second = 0
+        self.third = 0
+        self.forth = 0
+
+
+    def roll_ticket(self):
+        while True:
+            self.data += 1
+            print(f"\nTrial: {self.data}")
+            self.first = choice(self.ticket_data)
+            print(f"The first letter/number is: \t {self.first}")
+            self.second = choice(self.ticket_data)
+            print(f"The first letter/number is: \t {self.second}")
+            self.third = choice(self.ticket_data)
+            print(f"The first letter/number is: \t {self.third}")
+            self.forth = choice(self.ticket_data)
+            print(f"The first letter/number is: \t {self.forth}")
+
+            print("\nThe winning ticket is:")
+            print(f"\t{self.first} {self.second} {self.third} {self.forth}")
+
+            if self.first == self.my_ticket[0] and self.second == self.my_ticket[1] and self.third == self.my_ticket[2] and self.forth == self.my_ticket[3]:
+                print("You won the lottery!!!")
+                break
+            else:
+                print("You did not win.")
+
+yeet = Lottery(0)
+yeet.roll_ticket()
+
 
