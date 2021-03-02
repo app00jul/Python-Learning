@@ -1,3 +1,8 @@
 10.1: Learning Python.
-READ BOOK x3
-FILE
+file_path = '/home/jul/Desktop/pycharm-community-2020.3.2/chapter-10/learned'
+
+with open(file_path) as file_object:
+    contents = file_object.read()
+    print(contents.rstrip())
+
+10.2: Learning C.
