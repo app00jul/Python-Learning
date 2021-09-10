@@ -1,9 +1,9 @@
 6.1: Person.
-cassie = {"first" : "Han", "last" : "Le",
-          "age" : "17", "city" : "Da Nang"}
+jul = {"first" : "Julian", "last" : "Noeske",
+          "age" : "18", "city" : "Milwaukee"}
 
-print(f"Welcome {cassie['first']} {cassie['last']}.")
-print(f"You are {cassie['age']}. You currently live in {caissie['city']}.")
+print(f"Welcome {cassie['jul']} {jul['last']}.")
+print(f"You are {jul['age']}. You currently live in {jul['city']}.")
 
 6.2: Favorite Numbers.
 friends_fav_num = {"Jul" : "7", "Timmy" : "5",
