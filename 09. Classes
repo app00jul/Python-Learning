@@ -89,7 +89,7 @@ class users:
         print(f"Hello {self.first_name},welcome to the program!")
 
 """DATA ABOUT THE FIRST USER"""
-app00jul = users("Jul", "Vu", "18", "Wisconsin")
+app00jul = users("Jul", "Noeske", "18", "Wisconsin")
 
 print(app00jul.first_name)
 print(app00jul.last_name)
@@ -163,7 +163,7 @@ class users:
         print(f"Your login attempt has been reset {self.login_attempt}.")
 
 """DATA ABOUT THE FIRST USER"""
-app00jul = users("Jul", "Vu", "18", "Wisconsin")
+app00jul = users("Jul", "Noeske", "18", "Wisconsin")
 print(app00jul.first_name)
 print(app00jul.last_name)
 print(app00jul.age)
@@ -258,7 +258,7 @@ class Admin(Users):
             print(f"\t- {privilege.title()}")
 
 """DATA ABOUT THE FIRST USER"""
-app00jul = Admin("Julian", "Vu", "18", "Milwaukee")
+app00jul = Admin("Julian", "Noeske", "18", "Milwaukee")
 app00jul.show_privileges()
 
 9.8: Privileges.
