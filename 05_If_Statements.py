@@ -1,4 +1,4 @@
-5.1: Conditional Tests.
+#5.1: Conditional Tests.
 car = "Subaru"
 
 print("Is car == 'Subaru'? I predict True!")
@@ -7,10 +7,10 @@ print(car == "Subaru")
 print("\nIs car == 'Audi'? I predict False!")
 print(car == "Audi")
 
-5.2: More Conditional Tests.
-Skip!
+#5.2: More Conditional Tests.
+#Skip!
 
-5.3: Alien Colors #1.
+#5.3: Alien Colors #1.
 #Pass test.
 alien_color = "green"
 
@@ -23,7 +23,7 @@ alien_color = "green"
 if alien_color == "red":
     print("You just earned 5 pts")
 
-5.4: Alien Colors #2.
+#5.4: Alien Colors #2.
 #If block.
 alien_color = "green"
 
@@ -40,7 +40,7 @@ if alien_color == "green":
 else:
     print("You just earned 10 pts!")
 
-5.5: Alien Colors #3.
+#5.5: Alien Colors #3.
 #Green.
 alien_color = "green"
 
@@ -71,7 +71,7 @@ elif alien_color == "yellow":
 else:
     print("You just earned 15 pts!")
 
-5.6: Stages of Life.
+#5.6: Stages of Life.
 age = int(input("Please enter your age: "))
 
 if age < 2:
@@ -87,7 +87,7 @@ elif age > 20 and age < 65:
 else:
     print("You are an elder.")
 
-5.7: Favorite Fruit.
+#5.7: Favorite Fruit.
 fav_foods = ["Ramen", 
             "Cheesecake", 
             "Teriyaki Chicken"] #PEP 8 style?
@@ -103,7 +103,7 @@ if "Fried Chicken" in fav_foods:
 if "Teriyaki Chicken" in fav_foods:
     print("I really enjoy Teriyaki Chicken!")
 
-5.8: Hello Admin.
+#5.8: Hello Admin.
 user_name = ["admin", "jul", "wub_wub", "ola", "app00Jul"]
 enter_user = input("Please enter your user name: ")
 if enter_user == "admin" in user_name:
@@ -113,7 +113,7 @@ elif enter_user in user_name:
 else:
     print(f"Sorry but user name '{enter_user}' is not avaible in our system. Please try again!")
 
-5.9: No Users.
+#5.9: No Users.
 user_names = []
 
 if user_names:
@@ -122,7 +122,7 @@ if user_names:
 else:
     print("We need more user!!!")
 
-5.10: Checking Usernames.
+#5.10: Checking Usernames.
 current_users = ["admin", "jul", "wub_wub", "ola", "app00Jul"]
 new_users = ["hek", "jul", "dida", "cassie", "app00Jul"]
 
@@ -132,7 +132,7 @@ for new_user in new_users:
     else:
         print(f"The user name '{new_user}' is valid. Thank you for using our service.")
 
-5.11: Ordinal Numbers.
+#5.11: Ordinal Numbers.
 numbers = list(range(1,10))
 
 for number in numbers:
@@ -145,8 +145,8 @@ for number in numbers:
     else:
         print(f"{number}th")
     
-5.12: Styling if statements.
-Skip!
+#5.12: Styling if statements.
+#Skip!
 
-5.13: Your ideas.
-Skip!
+#5.13: Your ideas.
+#Skip!
