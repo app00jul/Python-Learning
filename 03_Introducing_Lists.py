@@ -1,4 +1,4 @@
-3.1: Names.
+#3.1: Names.
 names = ["Jul", "Del", "Joe Noeske", "Mr.Carter"]
 
 i = 0
@@ -7,21 +7,21 @@ while i < len(names):
     i = i + 1
 
 
-3.2: Greetings.
+#3.2: Greetings.
 names = ["Jul", "Joe Noeske", "Mr.Carter"]
 
 print(f"Hey {names[0]}, be strong bud.")
 print(f"Good morning {names[1]}, you are the best mentor I could ever ask for.")
 print(f"{names[2]}, I will be honest. You are like a father to me.")
 
-3.3: Your Own List.
+#3.3: Your Own List.
 vehicle = ["One Wheel", "M1A2 Abram", "Ka-52"]
 i = 0
 while i < len(vehicle):
     print(f"I would like to own a/an {vehicle[i]} one day!")
     i = i + 1
     
-3.4: Guest List.
+#3.4: Guest List.
 invite = ["Deus", "Paul", "Steve Jobs", "Elon Musk"]
 
 i = 0
@@ -29,7 +29,7 @@ while i < len(invite):
     print(f"{invite[i]}, please come to my party!!!")
     i = i + 1
 
-3.5: Changing Guest List.
+#3.5: Changing Guest List.
 invite = ["Deus", "Paul", "Steve Jobs", "Elon Musk"]
 
 i = 0
@@ -45,7 +45,7 @@ while i < len(invite):
     print(f"{invite[i]}, please come to my party!!!")
     i = i + 1
     
-3.6: More Guests.
+#3.6: More Guests.
 invite = ["Deus", "Paul", "Steve", "Elon"]
 
 i = 0
@@ -73,7 +73,7 @@ while n < len(invite):
     print(f"Hey {invite[n]}, please join the dinner!")
     n = n + 1
     
-3.7: Shrinking Guest List.
+#3.7: Shrinking Guest List.
 invite = ["Deus", "Paul", "Steve", "Elon"]
 
 i = 0
@@ -121,7 +121,7 @@ del invite[0]
 
 print(invite)
 
-3.8: Seeing the world.
+#3.8: Seeing the world.
 places = ["Paris", "London", "Da Lat", "Seoul", "Hokkaido", "D.C", "Canada"]
 print("This is the original list: ")
 print(places)
@@ -154,10 +154,10 @@ print("\nThis is the list in revered order: ")
 places.sort(reverse=True)
 print(places)
 
-3.9: Dinner Guests.
-Already did!
+#3.9: Dinner Guests.
 
-3.10: Every Function.
+
+#3.10: Every Function.
 learn = ["Python", "Kali", "OpenCV", "Raspberry Pi", "Networking", "GitHub"]
 
 print(learn)
@@ -195,5 +195,4 @@ print(learn)
 learn.reverse()
 print(learn)
 
-3.11: Intentional Error.
-Finished!
+#3.11: Intentional Error.
